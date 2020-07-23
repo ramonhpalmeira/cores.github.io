@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(231, 231, 231);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 30px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#dPrincipal {
+  width: 450px;
+  margin: 100px auto 0;
+  max-width: 90vw;
+}
+
+#dComponentes {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#divColor {
+  margin-top: 10px;
+  width: 450px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#dRange > div {
+  margin: 5px 20px;
+}
+
+#dRange input[type='text'] {
+  width: 50px;
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: super;
+}
+
+#dRange input[type='range'] {
+  width: 180px;
+  margin-left: 20px;
+  text-align: center;
+}
+#red {
+  -webkit-appearance: none;
+  background: #d3d3d3;
+}
+#red:hover {
+  opacity: 1;
+}
+
+#red::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: red;
+  cursor: pointer;
+}
+
+#green {
+  -webkit-appearance: none;
+  background: #d3d3d3;
+}
+#green:hover {
+  opacity: 1;
+}
+
+#green::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: green;
+  cursor: pointer;
+}
+
+#blue {
+  -webkit-appearance: none;
+  background: #d3d3d3;
+}
+#blue:hover {
+  opacity: 1;
+}
+
+#blue::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: blue;
+  cursor: pointer;
+}
+
+#dRange label {
+  vertical-align: super;
+  font-weight: bold;
+  width: 120px;
+  font-size: 16px;
+  display: inline-block;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}

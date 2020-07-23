@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Cores</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div id="dPrincipal">
+      <h1>Controle de Cores</h1>
+      <div id="dComponentes">
+        <div id="dRange">
+          <div>
+            <label>(R) Vermelho</label>
+            <input type="range" id="red" min="0" max="255" />
+            <input id="btRed" type="text" disabled />
+          </div>
+          <div>
+            <label>(G) Verde</label>
+            <input type="range" id="green" min="0" max="255" />
+            <input id="btGreen" type="text" disabled />
+          </div>
+          <div>
+            <label>(B) Azul</label>
+            <input type="range" id="blue" min="0" max="255" />
+            <input id="btBlue" type="text" disabled />
+          </div>
+        </div>
+      </div>
+      <div id="divColor"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
